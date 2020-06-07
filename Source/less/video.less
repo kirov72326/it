@@ -1,0 +1,48 @@
+.video {
+  background-image: url("../img/video.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.video__wrap {
+  padding-top: 70px;
+  padding-bottom: 85px;
+}
+
+.video__title {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.video__descr {
+  margin-bottom: 100px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.video__btn {
+  position: relative;
+  padding: 41px 29px 40px 121px;
+  margin-bottom: 85px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 200px;
+  font-family: @font-500;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+
+  color: #ffffff;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 60px;
+    height: 60px;
+    background: url("../img/play.svg") no-repeat center;
+  }
+}
