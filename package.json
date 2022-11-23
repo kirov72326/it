@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.7.2",
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.27.10",
     "csso": "^4.0.2",
     "gitignore": "^0.6.0",
     "grunt-contrib-less": "^2.0.0",
